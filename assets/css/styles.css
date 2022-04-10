@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #000;
+    color: #FFF;
+}
+
+#principal {
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+#container {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(44, 42, 46, 0.9) 10%, rgba(48, 54, 50, 0.2) 80%, rgba(41, 37, 37, 0.9) 100%); 
+}
+
+.principal__header__flex {
+    display: flex;
+    padding-top: .5rem;
+}
+
+.principal__header__logo {
+    margin-left: 1.5rem;
+    height: 70px;
+}
+
+.principal__header__logo img {
+    width: 140px;
+    height: 70px;
+}
+
+.principal__header__form {
+    margin-left: auto;
+    margin-right: 1.5rem;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.principal__header__form__select {
+    background-color: #0E0D0A;
+    border: 1px white solid;
+    padding: .5rem 1.375rem;
+    font-size: .875rem;
+    color: white;
+}
+
+.principal__header__form__button{
+    background-color: #E50914;
+    color:#FFFFFF;
+    border: none;
+    padding: 7px 17px;
+    font-size: .875rem;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+.principal__texto{
+    max-width: 950px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.principal__title {
+    width: 640px;
+    font-size: 3.125rem;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.principal__subtitle {
+    margin: 16px 0px;
+}
+
+.principal__texto__form__email{
+    width: 400px;
+    height: 48px;
+    padding: 10px;
+}
+
+.principal__texto__form__button{
+    width: 200px;
+    height: 68px;
+    padding: 10px;
+    font-size: larger;
+    background-color: #E50914;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+h3 {
+    margin: 16px;
+}
+
+article {
+    display: flex;
+    border-bottom: 8px solid #222;
+}
+
+.article__nota {
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    padding: 70px 45px;
+    text-align: center;
+}
+
+.article__nota__title {
+    font-size: 3.125rem;
+}
+
+.article__img {
+    width: 50%;
+}
+
+.footer {
+    color: #757575;
+    width: 60%;
+    margin: auto;
+    padding: 70px 45px;
+}
+
+.footer__flex {
+    display: flex;
+}
+
+.footer__flex__item {
+    padding: 20px;
+}
