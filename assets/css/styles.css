@@ -32,12 +32,12 @@ body, main {
 
 .principal__header__logo {
     margin-left: 1.5rem;
-    height: 70px;
+    height: 90px;
 }
 
 .principal__header__logo img {
-    width: 140px;
-    height: 70px;
+    width: 160px;
+    height: 90px;
 }
 
 .principal__header__form {
